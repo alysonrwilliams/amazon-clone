@@ -8,18 +8,18 @@ import Checkout from './Checkout';
 
 function App() {
   return (
-    //BEM
+    // BEM
     <Router>
       <div className="app">
-      <Header />
+        <Header />
         <Routes>
-          <Route path="/checkout" element={[ <Checkout />]} />
+          <Route path="/checkout" element={[<Checkout />]} />
           <Route path="/" element={[ <Home />]}/>
         </Routes>
       </div>
-    </Router>        
+    </Router>
   );
 }
 
-
 export default App;
+
